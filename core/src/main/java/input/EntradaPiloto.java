@@ -6,5 +6,7 @@ import java.time.LocalDateTime;
 import java.util.UUID;
 
 public interface EntradaPiloto {
-    UUID registrarPiloto(UUID licencia ,String nombre, LocalDateTime fecha_nacimiento) throws ExceptionPiloto;
+    UUID crearPiloto(UUID licencia ,String nombre,String documento, LocalDateTime fecha_nacimiento) throws ExceptionPiloto;
+
+
 }
