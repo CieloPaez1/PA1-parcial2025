@@ -49,4 +49,11 @@ public class Piloto {
     }
 
 
+    public String getDocumento() {
+        return documento;
+    }
+
+    public UUID getLicencia() {
+        return licencia;
+    }
 }
